@@ -1,0 +1,27 @@
+resnet50:
+  resize: 232
+  center_crop: 224
+densene169:
+  resize: 256
+  center_crop: 224
+densene201:
+  resize: 256
+  center_crop: 224
+inception_v3:
+  resize: 342
+  center_crop: 299
+efficientnet_b0:
+  resize: 256
+  center_crop: 224
+efficientnet_b1:
+  resize: 255
+  center_crop: 240
+efficientnet_b2:
+  resize: 288
+  center_crop: 288
+efficientnet_b3:
+  resize: 320
+  center_crop: 300
+efficientnet_b4:
+  resize: 384
+  center_crop: 380
